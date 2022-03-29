@@ -33,16 +33,16 @@ session_start();
     <p>Register</p>
     <form action="includes/signup.php" method="post">
         <input type="text" name="uid" placeholder="Username" />
-        <input type="text" name="pwd" placeholder="Password" />
-        <input type="text" name="pwdrepeat" placeholder="Repeat Password" />
-        <input type="text" name="email" placeholder="E-mail" />
+        <input type="password" name="pwd" placeholder="Password" />
+        <input type="password" name="pwdrepeat" placeholder="Repeat Password" />
+        <input type="email" name="email" placeholder="E-mail" />
         <button type="submit" name="submit">SIGN UP</button>
     </form>
     <!-- Prisijungimas -->
     <p>Login</p>
     <form action="includes/login.php" method="post">
         <input type="text" name="uid" placeholder="Username" />
-        <input type="text" name="pwd" placeholder="Password" />
+        <input type="password" name="pwd" placeholder="Password" />
         <button type="submit" name="submit">LOGIN</button>
     </form>
 </body>
